@@ -1,0 +1,33 @@
+{
+    "name": "lara-igniter/enum",
+    "description": "Minimal Enum to replace native PHP 8 enums",
+    "keywords": ["laraigniter", "enum"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/lara-igniter/enum/issues",
+        "source": "https://github.com/lara-igniter/enum"
+    },
+    "authors": [
+        {
+            "name": "George Tsachrelias",
+            "email": "george@laraigniter.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "ext-json": "*",
+        "lara-elegant/collections": "^1.2",
+        "lara-elegant/support": "^1.10",
+        "lara-elegant/view": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laraigniter\\Enum\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
